@@ -105,4 +105,12 @@ body {
 		flex-direction: column;
 		align-items: flex-start;
 	}
+	.text-principal {
+ 	 font-size: 1.3em;
+	 padding-top: 160px;
+  }
+	.principal {
+		max-height: 450px;
+		background-position: -50px 80px;
+	}
 }
