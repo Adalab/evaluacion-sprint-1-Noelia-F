@@ -8,3 +8,9 @@ body {
 	width: 100%;
 	max-width: 250px;
 }
+.menu-contact {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style: none;
+}
