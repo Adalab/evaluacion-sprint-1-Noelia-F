@@ -3,6 +3,8 @@
 
 body {
 	font-family: 'Rubik', sans-serif;
+	display: flex;
+	flex-direction: column;
 }
 
 /*MENU*/
@@ -22,7 +24,7 @@ body {
 }
 .adalab-image img{
 	width: 100%;
-	max-width: 180px;
+	max-width: 160px;
 }
 .menu-contact {
 	display: flex;
@@ -62,6 +64,9 @@ body {
 /*FOOTER*/
 .footer {
 	background-color: #252525;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	box-sizing: border-box;
 }
 .footer-box {
 	display: flex;
