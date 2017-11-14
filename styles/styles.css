@@ -34,7 +34,7 @@ body {
 }
 .menu-contact-specific {
 	padding: 10px;
-	font-size: 0.8em;
+	font-size: 0.9em;
 }
 .menu-contact-specific a {
 	color: #555555;
@@ -92,10 +92,17 @@ body {
 		max-height: 570px;
 	}
  .text-principal {
-	 font-size: 1.7em;
+	 font-size: 1.6em;
  }
  .footer {
 	 padding-top: 40px;
 	 padding-bottom: 40px;
  }
+}
+
+@media all and (max-width: 500px) {
+	.menu {
+		flex-direction: column;
+		align-items: flex-start;
+	}
 }
