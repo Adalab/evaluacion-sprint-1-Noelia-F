@@ -11,6 +11,10 @@ body {
 .menu-contact {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
 	list-style: none;
+	padding: 0;
+}
+.menu-contact-specific {
+	padding: 10px;
+	font-size: 0.8em;
 }
