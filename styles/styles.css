@@ -94,4 +94,8 @@ body {
  .text-principal {
 	 font-size: 1.7em;
  }
+ .footer {
+	 padding-top: 40px;
+	 padding-bottom: 40px;
+ }
 }
