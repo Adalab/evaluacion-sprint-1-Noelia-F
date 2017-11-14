@@ -9,7 +9,12 @@ body {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	flex-basis: 100%;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	color: #555555;
+	padding: 10px;
+	box-sizing: border-box;
 }
 .adalab-image img{
 	width: 100%;
@@ -24,4 +29,8 @@ body {
 .menu-contact-specific {
 	padding: 10px;
 	font-size: 0.8em;
+}
+.menu-contact-specific a {
+	color: #555555;
+	text-decoration: none;
 }
