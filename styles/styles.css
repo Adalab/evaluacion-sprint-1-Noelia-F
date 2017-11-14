@@ -113,4 +113,8 @@ body {
 		max-height: 450px;
 		background-position: -50px 80px;
 	}
+	.footer {
+ 	 padding-top: 30px;
+ 	 padding-bottom: 30px;
+  }
 }
