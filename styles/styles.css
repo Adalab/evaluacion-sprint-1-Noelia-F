@@ -138,6 +138,9 @@ body {
 	 padding-top: 40px;
 	 padding-bottom: 40px;
  }
+ .form-box {
+	 padding-top: 20px;
+ }
 }
 
 @media all and (max-width: 500px) {
@@ -157,7 +160,7 @@ body {
  	 padding-top: 30px;
  	 padding-bottom: 30px;
   }
-	.form-box-text {
-		padding-top: 150px;
+	.form-box {
+		padding-top: 90px;
 	}
 }
