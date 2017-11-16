@@ -138,6 +138,11 @@ body {
 	 padding-top: 40px;
 	 padding-bottom: 40px;
  }
+
+ .footer-box {
+ 	font-size: 0.9em;
+ }
+
  .form-box {
 	 padding-top: 20px;
  }
@@ -160,6 +165,11 @@ body {
  	 padding-top: 30px;
  	 padding-bottom: 30px;
   }
+
+	.footer-box {
+	 font-size: 1.1em;
+	}
+
 	.form-box {
 		padding-top: 90px;
 	}
