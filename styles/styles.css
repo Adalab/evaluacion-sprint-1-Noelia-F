@@ -89,9 +89,10 @@ body {
 
 /*FORMULARIO*/
 .menu-form {
-	-webkit-box-shadow: 2px 2px 19px -4px rgba(0,0,0,0.75);
-	-moz-box-shadow: 2px 2px 19px -4px rgba(0,0,0,0.75);
-	box-shadow: 2px 2px 19px -4px rgba(0,0,0,0.75);
+	border-bottom: 1px solid #555555;
+}
+.form-adalab {
+	padding-top: 30px;
 }
 .form-box {
 	display: flex;
