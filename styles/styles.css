@@ -129,6 +129,21 @@ body {
 	font-weight: 700;
 }
 
+/*testimonios*/
+.testimonials {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 10px;
+}
+
+.box-test {
+	flex-basis: 30%;
+	text-align: center;
+	padding: 10px;
+}
+
 /*MEDIAQUERIES*/
 @media all and (max-width: 900px) {
  .text-principal {
@@ -147,6 +162,12 @@ body {
  .form-box {
 	 padding-top: 20px;
  }
+}
+
+@media all and (max-width: 900px) {
+	.testimonials {
+		flex-direction: column;
+	}
 }
 
 @media all and (max-width: 500px) {
