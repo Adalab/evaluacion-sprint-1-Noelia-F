@@ -37,9 +37,14 @@ body {
 	padding: 10px;
 	font-size: 0.9em;
 }
+
 .menu-contact-specific a {
 	color: #555555;
 	text-decoration: none;
+}
+.menu-contact-specific:hover {
+	text-decoration: underline;
+	font-weight: 700;
 }
 
 /*PRINCIPAL*/
@@ -82,10 +87,16 @@ body {
 	text-decoration: none;
 	color: #f5f5f5;
 }
+
+.footer-link:hover {
+	text-decoration: underline;
+	font-weight: 700;
+}
 .copy {
 	color: #555555;
 	padding: 10px;
 }
+
 
 /*FORMULARIO*/
 .menu-form {
